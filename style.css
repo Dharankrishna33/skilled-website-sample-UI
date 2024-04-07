@@ -1,0 +1,318 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-left: 5%;
+    overflow-x: hidden;
+}
+.navi{
+    width: 100%;
+    height: 10vh;
+}
+.navi .up li{
+    display: inline;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+}
+.up li p{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight:bold ;
+    font-size: 2vw;
+    color: rgb(24, 24, 105);
+}
+.up li .b1{
+    font-size: 1vw;
+    font-weight:50% ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8vw 1.2vw;
+    border-radius: 1.5vw;
+    background-color: rgb(24, 24, 105);
+    color: white;
+    border-color:  rgb(24, 24, 105);
+    border-style: solid;
+    margin-right: 2vw;
+}
+.navi .up{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+}
+.first{
+    display: flex;
+    height: 45vw;
+}
+.first .image img{
+    
+    position: relative;
+    left: 21vw;
+    bottom: 8vw;
+    flex: 2;
+    width: 60vw;
+    height: 48vw;
+}
+.image .mobile{
+    display: none;
+}
+.first .left{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left .max{
+    color: rgb(24, 24, 105);
+    font-size: 3.5vw;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.left .quote{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, 0.562);
+}
+.left .b2{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    font-size: 1vw;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8vw 1vw;
+    border-radius: 1.3vw;
+    background-image: linear-gradient(rgb(255, 51, 0),rgb(180, 51, 212));
+    color: white;
+    border-color: rgba(255, 255, 255, 0.479);
+}
+.box2 i{
+    color: white;
+    border: 1px solid rgb(204, 91, 110);
+    border-radius:80%;
+    padding: 1vw;
+    background-color: rgb(204, 91, 110);
+    position: relative;
+    bottom: 1.7vw;
+}
+.box3 i{
+    color: white;
+    border: 1px solid rgb(204, 91, 110);
+    border-radius: 100%;
+    padding: 1vw;
+    background-color: rgb(204, 91, 110);
+    position: relative;
+    bottom: 1.7vw;
+}
+.box4 i{
+    color: white;
+    border: 1px solid rgb(204, 91, 110);
+    border-radius: 100%;
+    padding: 1vw;
+    background-color: rgb(204, 91, 110);
+    position: relative;
+    bottom: 1.7vw;
+}
+.box5 i{
+    color: white;
+    border: 1px solid rgb(204, 91, 110);
+    border-radius: 100%;
+    padding: 1vw;
+    background-color: rgb(204, 91, 110);
+    position: relative;
+    bottom: 1.7vw;
+}
+.box6 i{
+    color: white;
+    border: 1px solid rgb(204, 91, 110);
+    border-radius: 80%;
+    padding: 1vw;
+    background-color: rgb(204, 91, 110);
+    position: relative;
+    bottom: 1.7vw;
+}
+.last .down li{
+    display: inline;
+}
+.last .down{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  repeat(2,1fr);
+    gap: 3vw;
+    height: 45vw;
+    
+}
+.box1{
+    display: flex;
+    background-image: linear-gradient(rgb(255, 51, 0),rgb(180, 51, 212));
+    border-radius: 1vw;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+    font-size: 2.5vw;
+    color: white;
+}
+.boxes a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 1.1vw;
+    color: rgb(230, 20, 90);
+    font-weight: bold;
+}
+.box2,.box3,.box4,.box5,.box6{
+    border-radius: 1vw;
+    background-color: rgb(240, 230, 230);
+    padding-left: 2vw;
+}
+.box3 p,.box4 p,.box5 p,.box6 p,.box2 p{
+    font-family:sans-serif;
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+.box3 pre,.box4 pre,.box5 pre,.box6 pre,.box2 pre{
+    font-family:sans-serif;
+    font-size:1vw ;
+    color: rgba(0, 0, 0, 0.562);
+}
+.last{
+    width: 100%;
+    background-color:rgb(24, 24, 105) ;
+}
+.last .down li{
+    display: inline;
+    font-family: Geneva, Tahoma, sans-serif;
+    
+}
+.down li p{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight:bold ;
+    font-size: 2vw;
+    color: white;
+    padding-left: 2vw;
+}
+.down li .b3{
+    font-size: 1vw;
+    font-weight:50% ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8vw 1.2vw;
+    border-radius: 1.5vw;
+    background-image: linear-gradient(rgb(255, 51, 0),rgb(180, 51, 212));
+    color: white;
+    border-color:  rgb(24, 24, 105);
+    border-style: solid;
+    margin-right: 2vw;
+}
+.last .down{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0;
+}
+@media only screen and (max-width:420px){
+.first{
+    flex-direction: column;
+    height: auto;
+}
+ul .up{
+    margin: 0;
+}
+.up li .b1{
+    font-size: 3.6vw;
+    border-radius: 5vw;
+    padding:2.7vw 3vw ;
+}
+.up li p{
+    font-size: 6vw;
+}
+.image .mobile{
+    display: inline-block;
+}
+.image .pc{
+    display: none;
+    margin: 5vh 0;
+}
+.first .image img{
+    position:static;
+    width: 100%;
+    height: 100%;
+}
+.first .image{
+    flex:1;
+}
+
+.first .left{
+    flex:1;
+    row-gap: 3vw;
+}
+.left .max{
+    font-size: 10vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+.left .quote{
+    font-size:3.5vw;
+}
+.left .b2{
+    width: 40%;
+    padding: 3vw;
+    font-size: 3vw;
+    border-radius: 5vw;
+}
+.boxes{
+   display: flex; 
+   flex-direction: column;
+   height: auto;
+   gap: 7vw;
+}
+.box1{
+    border-radius: 7vw;
+    padding: 8vw 10vw;
+    font-size:4.5vw;
+    justify-content: flex-start;
+}
+.box2,.box3,.box4,.box5,.box6{
+    border-radius: 7vw;
+    height: 65vw;
+    padding: 7vw;
+
+}
+.box3 p,.box4 p,.box5 p,.box6 p,.box2 p{
+    font-size: 8vw;
+    margin-top: 0;
+}
+.box3 pre,.box4 pre,.box5 pre,.box6 pre,.box2 pre{
+   
+    font-size:5vw ;
+    margin: 0;
+}
+.boxes a{
+    font-size: 5vw;
+}
+ul .down{
+    margin: 0;
+}
+.down li .b3{
+    font-size: 3.6vw;
+    border-radius: 5vw;
+    padding:2.7vw 3vw ;
+}
+.down li p{
+    font-size: 5vw;
+    padding-left: 2vw;
+}
+.box3 i,.box4 i,.box5 i,.box6 i,.box2 i{
+    border-radius: 100%;
+    padding: 5vw;
+    background-color: rgb(204, 91, 110);
+    position: relative;
+    bottom: 10vw;
+}
+}
